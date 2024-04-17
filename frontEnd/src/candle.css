@@ -1,0 +1,34 @@
+/* candle.css */
+
+.candle-strip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .candles-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .candle {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+  }
+  
+  .missing {
+    background-color: red;
+  }
+  
+  .time-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .time-label {
+    font-size: 12px;
+  }
+  
